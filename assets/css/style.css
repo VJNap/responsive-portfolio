@@ -15,12 +15,13 @@ p:last-child {
 }
 
 h1 {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 15px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid whitesmoke;
+  /* border-bottom: 3px solid black; */
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color:#4aaaa5;
@@ -64,7 +65,7 @@ body {
   background-image: url('../images/spikes/spikes.png');
 }
 
-.container {
+.primary-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -99,28 +100,34 @@ footer {
 
 /* portfolio page */
 
-.work {
+#aboutMe {
+  margin-bottom: 2vh;
+  border-bottom: 3px solid whitesmoke;
+}
+
+/* .work {
   position: relative;
   float: left;
   width: 300px;
   overflow: auto;
-}
+} */
 
-.work:nth-child(even) {
+/* .work:nth-child(even) {
   margin-left: 100px;
 }
 
 .work:nth-child(odd) {
   margin-left: 50px;
-}
+} */
 
 .work img {
   width: 100%;
+  height: auto;
   border: 0;
   opacity: 0.8;
 }
 
-.work h3 {
+/* .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -132,21 +139,25 @@ footer {
   text-align: center;
   background: gray;
   border-bottom: 0;
-}
+} */
 
 .auth-image {
-  float: left;
-  width: 200px;
+  /* float: left; */
+  width: 100%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
 }
 
-.img-section {
+/* .img-section {
   margin: 50px 50px 0px 50px;
-}
+} */
 
 /* contact page */
+
+#contact-form {
+  min-width: 375px;
+}
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -162,6 +173,7 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
+  min-width: 375px;
 }
 
 input[type=text],
