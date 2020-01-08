@@ -21,7 +21,6 @@ h1 {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 49px;
-  /* border-bottom: 3px solid black; */
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color:#4aaaa5;
@@ -100,25 +99,10 @@ footer {
 
 /* portfolio page */
 
-#aboutMe {
+.aboutMe {
   margin-bottom: 2vh;
   border-bottom: 3px solid whitesmoke;
 }
-
-/* .work {
-  position: relative;
-  float: left;
-  width: 300px;
-  overflow: auto;
-} */
-
-/* .work:nth-child(even) {
-  margin-left: 100px;
-}
-
-.work:nth-child(odd) {
-  margin-left: 50px;
-} */
 
 .work img {
   width: 100%;
@@ -127,33 +111,12 @@ footer {
   opacity: 0.8;
 }
 
-/* .work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: whitesmoke;
-  text-align: center;
-  background: gray;
-  border-bottom: 0;
-} */
-
 .auth-image {
-  /* float: left; */
   width: 100%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
 }
-
-/* .img-section {
-  margin: 50px 50px 0px 50px;
-} */
-
-/* contact page */
 
 #contact-form {
   min-width: 375px;
